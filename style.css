@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/linoleo-script');
+
+.poppins-500 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.poppins-700 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.linoleo {
+    font-family: 'Linoleo Script', sans-serif;
+    font-weight: 400;
+}
+
+.background-color-gray {
+    background-color: #F6F6F6;
+}
+
+.background-color-middle-gray {
+    background-color: #D8D8D8;
+    ;
+}
+
+.text-gray-color {
+    color: #999999;
+}
+
+.text-middle-gray-color {
+    color: #6D6D6D;
+}
+
+.text-light-gray-color {
+    color: #7E7C7C;
+}
+
+.text-100-px {
+    font-size: 100px;
+}
+
+.text-80-px {
+    font-size: 80px;
+}
+
+.text-60-px {
+    font-size: 60px;
+}
+
+.text-36-px {
+    font-size: 36px;
+}
+
+.text-18-px {
+    font-size: 18px;
+}
+
+.text-16-px {
+    font-size: 16px;
+}
+
+.btn-danger {
+    background-color: #FFE8E8 !important;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #FFE8E8;
+}
+
+.btn-danger:active {
+    background-color: transparent !important;
+}
+
+.btn-secondary {
+    background-color: #EDEDED !important;
+    color: #666 !important;
+    border: none;
+}
+
+
+.introduction {
+    margin-left: -121px;
+    margin-top: 85px;
+}
+
+.margin-right-177 {
+    margin-right: 177px;
+}
+
+.margin-left-28 {
+    margin-left: 28px;
+}
+
+.letter-spaccing-8px {
+    letter-spacing: 8px;
+}
+
+.letter-spaccing-6px {
+    letter-spacing: 6px;
+}
+
+.bg-plant {
+    background-image: url("./images/plant.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.CV-troll-position {
+    position: relative !important;
+    top: 25px !important;
+}
+
+.information-position {
+    position: relative;
+    bottom: -120px;
+    left: 65%;
+}
+
+.screen-flex {
+    display: none;
+}
+
+
+.scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #EDEDED;
+    color: #666;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.scroll-to-top-button:hover {
+    background-color: #999999;
+}
+
+
+@media (max-width: 991px) {
+
+    .btn-danger {
+        left: 25%;
+        top: 25%;
+    }
+
+    body {
+        text-align: justify;
+        height: 100%;
+        width: 100%;
+    }
+
+    .profile-picture {
+        width: 100%;
+    }
+
+    .project-2 {
+        flex-direction: column-reverse;
+    }
+
+    .text-100-px {
+        font-size: 60px;
+    }
+
+    .text-80-px {
+        font-size: 50px;
+    }
+
+    .text-60-px {
+        font-size: 40px;
+    }
+
+    .text-36-px {
+        font-size: 28px;
+    }
+
+    .media-text {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    .media-margin-left {
+        margin-left: 50%;
+    }
+
+    .responsif-info {
+        background: none;
+        margin-bottom: 200px;
+    }
+
+    .screen-flex {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .information-position {
+        display: none;
+    }
+
+    .CV-troll-position {
+        position: static !important;
+        /* Réinitialise la position en statique (par défaut) */
+        top: 0 !important;
+        /* Réinitialise le décalage vertical */
+        width: 75%;
+        margin-left: 75px;
+    }
+}
+
+@media (max-width: 330px) {
+    .responsif-info {
+        background: none;
+        margin-bottom: -150px !important;
+    }
+}
+
+@media (max-width: 770px) {
+    .responsif-info {
+        background: none;
+        margin-bottom: 10px;
+    }
+
+    #scrollToTopButton {
+        display: none !important;
+    }
+}
